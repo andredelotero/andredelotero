@@ -53,7 +53,7 @@ const Contact = () => {
   return (
     <StyledContact ref={contactRef} id="contactContainer">
       <h1>Contact</h1>
-      <h3>Let's get in touch</h3>
+      <h2 className="customH2">Let's get in touch</h2>
       <div className="networks">
         <a
           href="https://github.com/andredelotero"

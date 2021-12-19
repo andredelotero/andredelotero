@@ -87,10 +87,10 @@ const About = () => {
     <div ref={aboutRef} id="aboutContainer">
       <StyledAbout>
         <h1>About me</h1>
-        <h3>Who I am, my skills, what I do</h3>
+        <h2 className="customH2">Who I am, my skills, what I do</h2>
         <div className="info">
           <div className="aboutMe">
-            <h4>Me</h4>
+            <h3>Me</h3>
             <p>
               I'm a Frontend (react) developer from Brazil, based in Mar del
               Plata, Argentina.
@@ -102,7 +102,7 @@ const About = () => {
             </p>
           </div>
           <div className="aboutSkills">
-            <h4>Skills</h4>
+            <h3>Skills</h3>
             <p>
               HTML, CSS, JavaScript, React, Jquery, Bootstrap, Sass, Styled
               Components (this site is 100% styled whith this library)
@@ -114,7 +114,7 @@ const About = () => {
           </div>
 
           <div className="aboutProjects">
-            <h4 className="mb2 ">Projects</h4>
+            <h3 className="mb2 ">Projects</h3>
             <ProjectsContainer>
               {data.map((el, index) => (
                 <Project data={el} key={index}></Project>
