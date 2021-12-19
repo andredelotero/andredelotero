@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledCta = styled.button`
   padding: 1rem 2rem;
-  background-color: #8b63d4;
+  background-color: #6435bb;
   display: inline-block;
   width: fit-content;
   color: #fff;
@@ -12,11 +12,11 @@ const StyledCta = styled.button`
   margin-top: 2rem;
   border: 0;
   text-decoration: none;
-  box-shadow: 0 0 300px #d014ff;
+  box-shadow: 0 0 200px #6435bb;
   transition: all 200ms linear;
   cursor: pointer;
   &:hover {
-    box-shadow: 0 0 150px #d014ff;
+    box-shadow: 0 0 100px #4f23a0;
   }
 `;
 

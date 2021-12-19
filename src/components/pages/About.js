@@ -62,14 +62,14 @@ const data = [
     description:
       "The second project I did during my Frontend career. Main tools/languajes: HTML, Javascript and SASS",
     img: jsCommerce,
-    link: "",
+    link: "#",
   },
   {
     name: "ecommerce React",
     description:
       "Third and last project during my Frontend Career. Main tools/languages: HTML, React, SASS and Styled Components",
     img: reactCommerce,
-    link: "",
+    link: "#",
   },
   {
     name: "Autocentro",
