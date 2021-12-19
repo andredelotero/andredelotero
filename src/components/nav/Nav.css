@@ -1,0 +1,56 @@
+.container {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1d1d1de3;
+  border-bottom: 1px solid #8b63d4;
+  color: #fff;
+}
+
+.logo {
+  display: none;
+}
+@media screen and (min-width: 500px) {
+  .logo {
+    display: block;
+    font-size: 18px;
+    width: 4.5ch;
+    white-space: nowrap;
+    text-overflow: hidden;
+    overflow: hidden;
+    transition: all 200ms linear;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (min-width: 850px) {
+  .logo {
+    width: 100%;
+  }
+}
+
+nav span {
+  font-size: 18px;
+  font-weight: 400;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s ease;
+  transition-delay: 0.25s;
+  margin: 0 1.2em;
+  padding-bottom: 0.3em;
+  letter-spacing: 1px;
+}
+
+nav span:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #8b63d4;
+}
+
+nav span.activeClass {
+  border-bottom-color: #8b63d4;
+}
