@@ -9,7 +9,7 @@ const StyledHeader = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
+  margin: 65px auto 0 auto;
   padding: 3rem 1rem;
   color: #fff;
   position: relative;
