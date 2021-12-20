@@ -43,7 +43,7 @@ const StyledContact = styled.section`
     height: 30px;
     width: auto;
     display: inline-block;
-    margin: 1rem;
+    margin: 1rem 2rem;
   }
 `;
 
