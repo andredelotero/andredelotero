@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #1d1d1de3;
   border-bottom: 1px solid #8b63d4;
   color: #fff;
@@ -23,7 +23,7 @@ nav span {
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s ease;
   transition-delay: 0.25s;
-  margin: 0 0.5em;
+  margin: 0 1.2em;
   padding-bottom: 0.3em;
   letter-spacing: 1px;
 }
@@ -38,6 +38,9 @@ nav span.activeClass {
 }
 
 @media screen and (min-width: 500px) {
+  .container {
+    justify-content: space-between;
+  }
   .logo {
     display: block;
     font-size: 18px;
@@ -56,6 +59,5 @@ nav span.activeClass {
   }
   nav span {
     font-size: 18px;
-    margin: 0 1.2em;
   }
 }

@@ -19,11 +19,11 @@ const StyledContact = styled.section`
     position: absolute;
     top: -70px;
     left: 0;
-    width: 100%;
+    max-width: 100%;
     margin: 0;
     z-index: -1;
     line-height: 280px;
-    // content: "CONTACT";
+    content: "CONTACT";
     font-size: 250px;
     overflow: hidden;
     color: rgba(68, 68, 68, 0.1);

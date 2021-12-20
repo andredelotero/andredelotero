@@ -17,11 +17,11 @@ const StyledHeader = styled.div`
     position: absolute;
     top: -70px;
     left: 0;
-    width: 100%;
+    max-width: 100%;
     margin: 0;
     z-index: -1;
     line-height: 280px;
-    //content: "HOME";
+    content: "HOME";
     font-size: 250px;
     overflow: hidden;
     color: rgba(68, 68, 68, 0.1);
@@ -51,7 +51,7 @@ const StyledHeader = styled.div`
     padding: 3rem;
     h1 {
       font-size: 90px;
-      line-height: 87px;
+      line-height: 100px;
     }
     img {
       display: block;
