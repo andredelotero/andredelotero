@@ -56,7 +56,7 @@ const Contact = () => {
       <h2 className="customH2">Let's get in touch</h2>
       <div className="networks">
         <a
-          href="https://github.com/andredelotero"
+          href="https://www.linkedin.com/in/andredelotero/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -68,7 +68,7 @@ const Contact = () => {
           />
         </a>
         <a
-          href="https://www.linkedin.com/in/andredelotero/"
+          href="https://github.com/andredelotero"
           target="_blank"
           rel="noopener noreferrer"
         >
