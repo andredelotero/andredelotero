@@ -44,7 +44,7 @@ const Project = (data) => {
 
   return (
     <StyledProject>
-      <img src={img} alt={name} />
+      <img src={img} alt={name} width={450} height={228} />
       <p className="title">{name}</p>
       <p>{description}</p>
       <a href={link} className="link" target="_blank" rel="noopener noreferrer">
