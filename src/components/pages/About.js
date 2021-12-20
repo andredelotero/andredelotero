@@ -67,7 +67,7 @@ const data = [
   {
     name: "ecommerce React",
     description:
-      "Third and last project during my Frontend Career. Main tools/languages: HTML, React, SASS and Styled Components",
+      "Third and last project during my Frontend Career. Main tools/languages: HTML, React, JSX, SASS and Styled Components",
     img: reactCommerce,
     link: "https://andre-react.netlify.app/",
   },
