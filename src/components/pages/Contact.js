@@ -60,14 +60,24 @@ const Contact = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={linked} alt="visit my Linkedin profile" />
+          <img
+            src={linked}
+            alt="visit my Linkedin profile"
+            width={30}
+            height={30}
+          />
         </a>
         <a
           href="https://www.linkedin.com/in/andredelotero/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={github} alt="visit my Github profile" />
+          <img
+            src={github}
+            alt="visit my Github profile"
+            width={30}
+            height={30}
+          />
         </a>
       </div>
     </StyledContact>
