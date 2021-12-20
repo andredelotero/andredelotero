@@ -23,7 +23,7 @@ const StyledContact = styled.section`
     margin: 0;
     z-index: -1;
     line-height: 280px;
-    content: "CONTACT";
+    // content: "CONTACT";
     font-size: 250px;
     overflow: hidden;
     color: rgba(68, 68, 68, 0.1);

@@ -21,7 +21,7 @@ const StyledHeader = styled.div`
     margin: 0;
     z-index: -1;
     line-height: 280px;
-    content: "HOME";
+    //content: "HOME";
     font-size: 250px;
     overflow: hidden;
     color: rgba(68, 68, 68, 0.1);
