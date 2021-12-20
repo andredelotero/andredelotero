@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 const StyledProject = styled.div`
   margin: 0 auto 2rem auto;
-  width: 450px;
+  width: 100%;
+  max-width: 450px;
   border: 1px solid #ffffff4c;
   text-align: center;
   height: auto;
