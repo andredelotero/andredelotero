@@ -1,15 +1,26 @@
 {
-  "short_name": "FE React Dev",
-  "name": "Andre Gama del Otero - Frontend (React) developer",
+  "short_name": "André Gama del Otero",
+  "name": "Frontend (React) developer",
   "icons": [
     {
       "src": "favicon.png",
-      "sizes": "130x130",
+      "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff"
+  "theme_color": "#1D1D1D",
+  "background_color": "#1D1D1D"
 }

@@ -104,7 +104,7 @@ const About = () => {
           <div className="aboutSkills">
             <h3>Skills</h3>
             <p>
-              HTML, CSS, JavaScript, React, Jquery, Bootstrap, Sass, Styled
+              HTML, CSS, JavaScript, React, JSX, Jquery, Bootstrap, Sass, Styled
               Components (this site is 100% styled whith this library)
             </p>
             <p>
