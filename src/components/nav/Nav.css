@@ -26,6 +26,7 @@ nav span {
   margin: 0 1.2em;
   padding-bottom: 0.3em;
   letter-spacing: 1px;
+  user-select: none;
 }
 
 nav span:hover {
