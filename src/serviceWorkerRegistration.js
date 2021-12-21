@@ -20,10 +20,10 @@ export function register(config) {
         checkValidServiceWorker(swUrl, config);
 
         navigator.serviceWorker.ready.then(() => {
-          console.log(
-            "This web app is being served cache-first by a service " +
-              "worker. To learn more, visit https://cra.link/PWA"
-          );
+          // console.log(
+          //   "This web app is being served cache-first by a service " +
+          //     "worker. To learn more, visit https://cra.link/PWA"
+          // );
         });
       } else {
         registerValidSW(swUrl, config);
@@ -47,10 +47,10 @@ function registerValidSW(swUrl, config) {
               // At this point, the updated precached content has been fetched,
               // but the previous service worker will still serve the older
               // content until all client tabs are closed.
-              alert(
-                "New content is available and will be used when all " +
-                  "tabs for this page are closed. See https://cra.link/PWA."
-              );
+              // alert(
+              //   "New content is available and will be used when all " +
+              //     "tabs for this page are closed. See https://cra.link/PWA."
+              // );
 
               // Execute callback
               if (config && config.onUpdate) {
@@ -60,7 +60,7 @@ function registerValidSW(swUrl, config) {
               // At this point, everything has been precached.
               // It's the perfect time to display a
               // "Content is cached for offline use." message.
-              alert("Content is cached for offline use.");
+              // alert("Content is cached for offline use.");
 
               // Execute callback
               if (config && config.onSuccess) {
@@ -72,7 +72,7 @@ function registerValidSW(swUrl, config) {
       };
     })
     .catch((error) => {
-      console.error("Error during service worker registration:", error);
+      // console.error("Error during service worker registration:", error);
     });
 }
 
@@ -100,7 +100,7 @@ function checkValidServiceWorker(swUrl, config) {
       }
     })
     .catch(() => {
-      alert("No internet connection found. App is running in offline mode.");
+      // alert("No internet connection found. App is running in offline mode.");
     });
 }
 
@@ -111,7 +111,7 @@ export function unregister() {
         registration.unregister();
       })
       .catch((error) => {
-        console.error(error.message);
+        // console.error(error.message);
       });
   }
 }
