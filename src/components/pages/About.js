@@ -29,7 +29,7 @@ const StyledAbout = styled.section`
     content: "ABOUT";
     font-size: 250px;
     overflow: hidden;
-    color: rgba(68, 68, 68, 0.8);
+    color: rgba(68, 68, 68, 0.2);
     font-weight: 800;
   }
   p {

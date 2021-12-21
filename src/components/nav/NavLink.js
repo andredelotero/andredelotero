@@ -12,7 +12,7 @@ const NavLink = ({ navLinkId, scrollToId }) => {
   return (
     <span
       id={navLinkId}
-      className={activeNavLinkId === navLinkId ? "activeClass" : ""}
+      className={activeNavLinkId === navLinkId ? "activeClass" : "notActive"}
       onClick={handleClick}
     >
       {navLinkId}

@@ -24,7 +24,7 @@ const StyledHeader = styled.div`
     content: "HOME";
     font-size: 250px;
     overflow: hidden;
-    color: rgba(68, 68, 68, 0.1);
+    color: rgba(68, 68, 68, 0.2);
     font-weight: 800;
   }
 
