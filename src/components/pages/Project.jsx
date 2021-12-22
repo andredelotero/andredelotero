@@ -48,7 +48,7 @@ const Project = (data) => {
       <p className="title">{name}</p>
       <p>{description}</p>
       <a href={link} className="link" target="_blank" rel="noopener noreferrer">
-        visit site
+        {link}
       </a>
     </StyledProject>
   );
