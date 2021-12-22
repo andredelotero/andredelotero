@@ -16,6 +16,12 @@
 .logo {
   display: none;
 }
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 nav span {
   font-size: 16px;
@@ -23,10 +29,24 @@ nav span {
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s ease;
   transition-delay: 0.05s;
-  margin: 0 1.2em;
+  margin: 0 0.4em;
   padding-bottom: 0.3em;
   letter-spacing: 1px;
   user-select: none;
+}
+
+@media screen and (min-width: 850px) {
+  nav {
+    justify-content: flex-end;
+  }
+  nav span {
+    margin: 0 1.2em;
+  }
+}
+@media screen and (min-width: 400px) {
+  nav span {
+    margin: 0 1.2em;
+  }
 }
 
 nav span:hover {
