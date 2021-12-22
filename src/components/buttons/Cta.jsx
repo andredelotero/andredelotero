@@ -10,6 +10,7 @@ const StyledCta = styled.button`
   font-weight: 600;
   letter-spacing: 1px;
   margin-top: 2rem;
+  margin-left: 0.3rem;
   border: 0;
   text-decoration: none;
   box-shadow: 0 0 200px #6435bb;
