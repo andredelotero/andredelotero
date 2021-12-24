@@ -64,7 +64,7 @@ nav span.activeClass {
   border-bottom: 2px solid #8b63d4;
 }
 nav span.notActive {
-  border-bottom: 0;
+  border-bottom: 2px solid transparent;
 }
 
 @media screen and (min-width: 500px) {

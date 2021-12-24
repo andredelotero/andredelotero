@@ -18,6 +18,7 @@ const StyledProject = styled.div`
   p {
     padding: 0 1rem;
   }
+
   .title {
     font-size: 24px;
     font-weight: 600;
@@ -31,7 +32,13 @@ const StyledProject = styled.div`
     text-decoration: none !important;
     color: #fff;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
+    width: auto;
+    display: inline-block;
+    overflow: hidden;
+    word-break: break-all;
+    padding: 0 0.5rem;
+    border-bottom: 1px solid transparent;
     transition: border-bottom 250ms linear;
     &:hover {
       border-bottom: 1px solid #8b63d4;
