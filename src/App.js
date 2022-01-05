@@ -4,13 +4,11 @@ import NavProvider from "./context/NavContext";
 
 function App() {
   return (
-    <>
-      <NavProvider>
-        <Nav />
+    <NavProvider>
+      <Nav />
 
-        <Main />
-      </NavProvider>
-    </>
+      <Main />
+    </NavProvider>
   );
 }
 

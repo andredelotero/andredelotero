@@ -2,7 +2,7 @@ import { useNav } from "../../customHooks/useNav";
 import "./Page.css";
 import styled from "styled-components";
 import Project from "./Project";
-import arqHtml from "../../img/arqAlguien.webp";
+import mars from "../../img/mars.webp";
 import jsCommerce from "../../img/jsEcommerce.webp";
 import reactCommerce from "../../img/reactEcommerce.webp";
 import autocentro from "../../img/autocentro.webp";
@@ -51,13 +51,6 @@ const ProjectsContainer = styled.div`
 
 const data = [
   {
-    name: "arqAlguien",
-    description:
-      "This project was the first I did during my Frontend career. Main tools/languajes: HTML and SASS",
-    img: arqHtml,
-    link: "https://arqalguien.vercel.app/",
-  },
-  {
     name: "ecommerce JS",
     description:
       "The second project I did during my Frontend career. Main tools/languajes: HTML, Javascript and SASS",
@@ -70,6 +63,13 @@ const data = [
       "Third and last project during my Frontend Career. Main tools/languages: HTML, React, JSX, SASS and Styled Components",
     img: reactCommerce,
     link: "https://andre-react.netlify.app/",
+  },
+  {
+    name: "Mars Photos",
+    description:
+      "Project build using React, JSX, Styled Components and fetching data from Nasa's open api Mars Rovers",
+    img: mars,
+    link: "https://rovers.vercel.app/",
   },
   {
     name: "Autocentro",

@@ -13,6 +13,7 @@ const StyledHeader = styled.div`
   padding: 3rem 1rem;
   color: #fff;
   position: relative;
+
   &::before {
     position: absolute;
     top: -70px;
@@ -72,8 +73,9 @@ const handleClick = () => {
 
 const Home = () => {
   const homeRef = useNav("Home");
+
   return (
-    <StyledHeader ref={homeRef} id="homeContainer">
+    <StyledHeader home ref={homeRef} id="homeContainer">
       <div className="StyledTitlesCta">
         <h1>Hello.</h1>
         <h1> I'm André,</h1>
