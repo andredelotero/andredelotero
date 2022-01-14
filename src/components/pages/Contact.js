@@ -18,13 +18,13 @@ const StyledContact = styled.section`
   &::before {
     position: absolute;
     top: -70px;
-    left: 0;
+
     max-width: 100%;
-    margin: 0;
+    margin: 0 auto;
     z-index: -1;
     line-height: 280px;
     content: "CONTACT";
-    font-size: 250px;
+    font-size: 14vw;
     overflow: hidden;
     color: rgba(68, 68, 68, 0.2);
     font-weight: 800;
