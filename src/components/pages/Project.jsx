@@ -39,7 +39,7 @@ const StyledProject = styled.div`
     word-break: break-all;
     padding: 0 0.5rem;
     border-bottom: 1px solid transparent;
-    transition: border-bottom 250ms linear;
+    transition: all 250ms linear;
     &:hover {
       border-bottom: 1px solid #8b63d4;
     }
