@@ -16,10 +16,10 @@ const DinamicContact = lazy(() =>
 const Main = () => (
   <main>
     <DinamicHome />
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={""}>
       <DinamicAbout />
     </Suspense>
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={""}>
       <DinamicContact />
     </Suspense>
   </main>
