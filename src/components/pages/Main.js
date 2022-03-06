@@ -1,12 +1,13 @@
-import About from "./About";
-import Home from "./Home";
-import Contact from "./Contact";
+import loadable from "@loadable/component";
+const DinamicHome = loadable(() => import("./Home"));
+const DinamicAbout = loadable(() => import("./About"));
+const DinamicContact = loadable(() => import("./Contact"));
 
 const Main = () => (
   <main>
-    <Home />
-    <About />
-    <Contact />
+    <DinamicHome />
+    <DinamicAbout />
+    <DinamicContact />
   </main>
 );
 
