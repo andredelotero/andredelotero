@@ -1,6 +1,5 @@
-import loadable from "@loadable/component";
+import loadable, { lazy } from "@loadable/component";
 import { Suspense } from "react";
-import { lazy } from "@loadable/component";
 
 const DinamicHome = loadable(() =>
   import(/* webpackChunkName: "home" */ "./Home")

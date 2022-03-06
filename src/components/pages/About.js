@@ -102,14 +102,14 @@ const About = () => {
             </p>
           </div>
           <div className="aboutSkills">
-            <h3>Skills</h3>
+            <h3>Skills and tools</h3>
             <p>
-              HTML, CSS, JavaScript, React, JSX, Jquery, Bootstrap, Sass, Styled
-              Components (this site is 100% styled whith this library)
+              HTML, CSS, JavaScript, React, NextJS, JSX, Jquery, Bootstrap,
+              Sass, Tailwind, Styled Components, VSCode, Git / Github, Figma,
+              Trello, Slack.
             </p>
             <p>
-              If needed, I will learn new CSS libraries/frameworks to adapt as
-              best as possible to the project requirements.
+              This site has a 98%+ performance according to Google Lighthouse.
             </p>
           </div>
 
