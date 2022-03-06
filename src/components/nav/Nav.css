@@ -27,7 +27,7 @@ nav span {
   font-size: 16px;
   font-weight: 400;
   border-bottom: 2px solid transparent;
-  transition: border-bottom 0.2s ease;
+  transition: all 0.6s ease;
   transition-delay: 0.05s;
   margin: 0 0.4em;
   padding-bottom: 0.3em;
