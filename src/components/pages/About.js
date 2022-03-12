@@ -108,9 +108,6 @@ const About = () => {
               Sass, Tailwind, Styled Components, VSCode, Git / Github, Figma,
               Trello, Slack.
             </p>
-            <p>
-              This site has a 98%+ performance according to Google Lighthouse.
-            </p>
           </div>
 
           <div className="aboutProjects">
